@@ -1,4 +1,4 @@
-// 14zadDomashka1.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
+// 14zadDomashka1.cpp: Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¿Ã¥Ã² Ã²Ã®Ã·ÃªÃ³ Ã¢ÃµÃ®Ã¤Ã  Ã¤Ã«Ã¿ ÃªÃ®Ã­Ã±Ã®Ã«Ã¼Ã­Ã®Ã£Ã® Ã¯Ã°Ã¨Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¿.
 //
 
 #include "stdafx.h"
@@ -51,7 +51,7 @@ DWORD WINAPI dz14_kareninathread(LPVOID)
 {
  std::ifstream fin2("dz14_karenina.txt", std::ios::in|std::ios::_Nocreate);
  while(fin2 >> buffer2) ++word2;
- if (buffer2 == "She") ++Sheshe2;
+ if (buffer2 == "She" || buffer2 == "she") ++Sheshe2;
  return 0;
 }
 
