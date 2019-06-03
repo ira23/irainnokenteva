@@ -1,5 +1,5 @@
 // 11zadane.cpp : Defines the entry point for the console application.
-//опнярне ъижн ъ декюкю 11 гюдюмхе я днпюмнбшл юмрнмнл с лемъ б пеохгюрнпхх опнярне ъижн с мецн гнкнрне
+//Ya delala zadanie vmeste s Doranovum Antonov u menya eggstandart u nego zolotoe
 
 #include "stdafx.h"
 #include "iostream"
